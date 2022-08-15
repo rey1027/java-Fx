@@ -12,7 +12,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tutoria.Controller">
    <children>
-      <Button fx:id="btnsave" layoutX="459.0" layoutY="277.0" mnemonicParsing="false" onAction="#save" prefHeight="28.0" prefWidth="86.0" text="Save" textFill="#8609d9" />
+      <Button  layoutX="459.0" layoutY="277.0" mnemonicParsing="false" onAction="#save" prefHeight="28.0" prefWidth="86.0" text="Save" textFill="#8609d9" />
       <Label layoutX="42.0" layoutY="60.0" prefHeight="26.0" prefWidth="106.0" text="Nombre de perro " />
       <Label layoutX="78.0" layoutY="119.0" prefHeight="16.0" prefWidth="85.0" text="Raza" />
       <TextField fx:id="txtNombre" layoutX="164.0" layoutY="61.0" />
@@ -24,7 +24,7 @@
          </font>
       </Text>
       <CubicCurve controlX1="9.314453125" controlX2="-57.79998779296875" controlY1="-1.52587890625E-5" controlY2="56.99998474121094" endX="14.0" endY="-1.52587890625E-5" fill="#ff1fcc" layoutX="537.0" layoutY="106.0" startX="-85.60708618164062" startY="-1.52587890625E-5" stroke="BLACK" />
-      <TextArea fx:id="lisvPerro" layoutX="150.0" layoutY="160.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextArea fx:id="lisvPerro" layoutX="148.0" layoutY="168.0" prefHeight="200.0" prefWidth="200.0" />
       <Button layoutX="476.0" layoutY="335.0" mnemonicParsing="false" onAction="#clearTxtArea" text="Borrar" textFill="#863f49">
          <font>
             <Font name="Britannic Bold" size="14.0" />
